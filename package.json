@@ -1,0 +1,27 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "Sandbox for MERN (Mongo Express React Node) stack",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node index",
+    "server": "nodemon index.js",
+    "client": "npm run start --prefix client",
+    "client:install": "npm install --prefix client",
+    "client:build": "npm run build --prefix client",
+    "dev": "NODE_ENV=development npm run server & npm run client",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arkadiy Andriyenko",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "jwtSecret": "Secret token key @!123",
+  "mongoUrl": "mongodb+srv://login:password@cluster0.x8gc4.mongodb.net/todos?retryWrites=true&w=majority"
+}
